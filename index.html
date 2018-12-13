@@ -1,0 +1,476 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CS339:Group Project</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript">addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }></script>
+<meta name="keywords" content="Incentive Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<!--Google Fonts-->
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+</head>
+<body>
+<!-- //end-smoth-scrolling -->
+<!--header start here-->
+<div class="header">
+	<div class="container">
+		<div class="header-main">
+		   <div class="logo">
+		   	   <h1><a href="#"> CS339:PROJCECT  </a></h1>
+		   </div>
+		   <div class="navg">
+		   	<span class="menu"> <img src="images/icon.png" alt=""/></span>
+		   	<ul class="res">
+		   		<li><a class="scroll" href="#about">Home</a></li>
+		   		<li><a class="scroll" href="#work">Demo</a></li>
+		   		<li><a class="scroll" href="#services">About us</a></li>
+		   		<li><a class="scroll" href="#contact">Contact</a></li>
+		   	</ul>
+		   	<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+			<!-- /script-for-menu -->
+		   </div>
+		   <div class="search">
+		   	<form>
+		   		<input type="text" value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}"/>
+		   		<input type="submit" value="">
+		   	</form>
+		   </div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--header end here-->	
+<!--banner start here-->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: false,
+        nav:true,
+      });
+    });
+  </script>
+
+<div class="banner">
+		<div class="banner-main">
+		   <div class="banner-top">
+	      <ul class="rslides" id="slider">
+	        <li>
+	        	<ul></ul>
+	  			<p>Question:<span class="bann-para"> Have you ever seen QR Codes while seeing films?
+	  				<br/>
+	  				Do you think it's too bothering?
+	  				<br/>
+	  				Here comes our ChromaCode!!!
+	  			</span></p>
+	            <div class="banner-detail">
+	            	<a href="#about"><span class="img-text"> </span>Read More About Incentive</a>
+	            </div>
+	        </li>
+	        <div class="clearfix"> </div>
+	        <li>
+	  			<p>222Sed ut perspiciatis unde omnis<span class="bann-para"> iste natus error sit voluptatem accusantium doloremque laudantium, rem aperiam </span>.</p>
+	            <div class="banner-detail">
+	            	<a href="#"><span class="img-text"> </span>Read More About Incentive</a>
+	            </div>
+	        </li>
+	       <!-- <li>
+	  			<p>But I must explain to you<span class="bann-para"> how all this mistaken idea of denouncing pleasure andpraising pain was give complete</span>.</p>
+	            <div class="banner-detail">
+	            	<a href="#"><span class="img-text"> </span>Read More About Incentive</a>
+	            </div>
+	        </li>
+	        <li>
+	        	<p>At vero eos et accusamus<span class="bann-para"> et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum corrupti quos</span>.</p>
+	            <div class="banner-detail">
+	            	<a href="#"><span class="img-text"> </span>Read More About Incentive</a>
+	            </div>
+	        </li> -->
+	      </ul>
+	       </div>
+		   <div class="banner-bottom" id="about">
+		   	 <h3>ChromaCode:A Fully Imperceptible Screen-Camera Communication System</h3>
+		   	 <p>Group Member：邓海伟，毕文东，孙雪涵，易兴睿</p>
+		       <div class="bann-btn">
+		       	  <a href="#about"> <span class="img-text"> </span>Read More About Us</a>
+		       </div>
+		      <a class="scroll" href="#intro1"><span class="mover"> </span></a>
+		   </div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!--banner end here-->
+<div class="intro" >
+		<div class="banner-main" >
+			<div class="introduction" id="intro1" >
+		   	 <h3>ChromaCode:A new transaction model using the light</h3>
+		   	 <p>Group Member：邓海伟，毕文东，孙雪涵，易兴睿</p>
+		   	  <img src="images/ph.jpg" alt="1" width="504" height="300" style="margin:0px 0px 15px 20px;float: right;">
+		   	 <br/>
+		   	 <p>This methods enabling hidden screen-camera channel. We hope to embed data frame into primary videos unobviously.
+		   	 	<br/>
+				So that when the video is being played, human eyes cannot percept the embedded data frame. Human eyes can only see the origin video content. But the data frame embedded in the video can be captured with a camera, and then decoded.
+				<br/>
+				This topic is a new transaction model using the light <br>
+				It trade communications between computer and mobiphones, later we will give a detailed description of this.<br>
+			</p>
+		   	 <br/>
+		   	
+		   	 	<a class="scroll" href="#ban-mover"> <span class="mover"> </span> </a>
+		  		<div class="clearfix"> </div>
+		   	</div>
+		   	
+		  		
+</div>
+</div>
+<div class="banner" >
+		<div class="banner-main" >
+			<div class="introduction" id="intro2">
+		   	 <h3 class="main">The color Space and Structure of ChromaCode</h3>
+		   	 <h3 class="sub">color Space</h3>
+		   	  <img src="images/color.png" alt="1" width="504" height="300" style="margin:0px 0px 15px 20px; float: right;">
+		   	  <p>
+		   	  	We compare differences between non-uniform and uniform color spaces with their hue and lightness palettes.
+				There are three annuluses [ə'nʌlju:zɪz]  in each color palette. The middle annulus has lightness L. The outer and inner annuluses have lightness L+ΔL and L-ΔL. For the palettes in non-uniform color space, color differences are not uniform.
+				<br/>
+				For example, color differences are more obvious here.
+				While color differences are less obvious here.
+				<br/>
+				For palettes  [ˈpælət]  in uniform color space,
+				The color differences are more perceptively uniform.
+				<br/>
+				Uniform color spaces suit human system better. Therefore we choose uniform color spaces for lightness modificvisionation.
+
+		   	  </p>
+		   	  <div class="clearfix"> </div>
+		   	  <img src="images/structure.png" alt="2" width="504" height="300" style="margin:0px 0px 15px 20px; float: right;">
+		   	 <br/>
+		   	 <p>The main structure of Chromacode is as follows:
+		   	 	<ul>
+		   	 		<li>Origin data is encoded through concatenated [kɒn'kætɪneɪt] encoding</li>
+		   	 		<li>then modulated to generate data frame.</li>
+		   	 		<li>The data frame is then embedded into primary video with adaptive embedding, so that when the video is being played</li>
+		   	 		<li>Human eyes can only see origin video contents. But cameras can capture the embedded data frame</li>
+		   	 		<li>Then retrieve embedded data by demodulation and decoding.</li>
+<!-- 		   	 		<li></li> -->
+		   	 	</ul>
+
+		   	 </p>
+
+		   	 
+		   	</div>
+		   	<a class="scroll" href="#ban-mover"> <span class="mover"> </span> </a>
+		  		<div class="clearfix"> </div>
+		</div>
+</div>
+<!--gallery start here-->
+<div class="gallery" id="work">
+	<div class="container">
+		<div class="gallery-main" id="ban-mover">
+			          <h3>Portfolio</h3>
+			         <div class="video", style="float: right;">
+			         	<video width="600" height="400" controls>
+					 		<source src="video.mp4" type="video/mp4">   
+						</video>
+			         </div>	
+			         <div> <p><br/> <br/> </p> </div>
+			         <p style="color:#fff;">There are mainly three key goals in hidden screen-camera communication. They are:<br/> </p>
+			         	<ul style="color:#fff;">
+			         	<li>Invisibility: users cannot see the code</li>
+						<li>Reliability: it can tolerate noise</li>
+						<li>Throughput: it can achieve high volume of communications.</li>
+			         	</ul >
+
+						<br/>
+						<p style="color:#fff;">
+						However, these three key goals can be conflicting. <br>
+
+						For example, we can increase lightness adjusting amount to achieve more reliable data transmission, but more flickers may be observed by human eyes. 
+						<br>
+						Previous works usually made a trade-off among them. In our work, ChromaCode aims to achieve all three goals while retaining watching experience to users.
+						<br>
+						Our demo video is shown on the right.
+						</p>			
+						<a class="scroll" href="#gall-mover"> <span class="mover"> </span> </a>
+		  		<div class="clearfix"> </div>
+	</div>
+ </div>
+</div>
+<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"> </script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+</script>
+
+<!--gallery end here-->
+<!--team start here-->
+<!-- <div class="members">
+	<div class="container" ">
+		<div class="members-main" id="gall-mover">
+			   <h3>The Team</h3>
+			  <div class="col-md-4 member-grid">
+			  	<img src="images/t1.jpg" alt="" title="">
+			  	<h4>Ingvar engstorm /CEO</h4>
+			  	<span class="team-line"> </span>
+			  	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+			  	<ul>
+			  		<li><a class="tw" href="#"> </a></li>
+			  		<li><a class="in" href="#"> </a></li>
+			  		<li><a class="fa" href="#"> </a></li>
+			  	</ul>
+			  </div>
+			  <div class="col-md-4 member-grid">
+			  	<img src="images/t2.jpg" alt="" title="">
+			  	<h4>Ingvar engstorm /CEO</h4>
+			  	<span class="team-line"> </span>
+			  	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+			  	<ul>
+			  		<li><a class="tw" href="#"> </a></li>
+			  		<li><a class="in" href="#"> </a></li>
+			  		<li><a class="fa" href="#"> </a></li>
+			  	</ul>
+			  </div>
+			  <div class="col-md-4 member-grid">
+			  	<img src="images/t3.jpg" alt="" title="">
+			  	<h4>Ingvar engstorm /CEO</h4>
+			  	<span class="team-line"> </span>
+			  	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+			  	<ul>
+			  		<li><a class="tw" href="#"> </a></li>
+			  		<li><a class="in" href="#"> </a></li>
+			  		<li><a class="fa" href="#"> </a></li>
+			  	</ul>
+			  </div>
+			  <div class="col-md-4 member-grid" style= "visibility: hidden;" >
+			  	<img src="images/t3.jpg" alt="" title="">
+			  	<h4>Ingvar engstorm /CEO</h4>
+			  	<span class="team-line"> </span>
+			  	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+			  	<ul>
+			  		<li><a class="tw" href="#"> </a></li>
+			  		<li><a class="in" href="#"> </a></li>
+			  		<li><a class="fa" href="#"> </a></li>
+			  	</ul>
+			  </div>
+			  <div class="col-md-4 member-grid" " >
+			  	<img src="images/t3.jpg" alt="" title="">
+			  	<h4>Ingvar engstorm /CEO</h4>
+			  	<span class="team-line"> </span>
+			  	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+			  	<ul>
+			  		<li><a class="tw" href="#"> </a></li>
+			  		<li><a class="in" href="#"> </a></li>
+			  		<li><a class="fa" href="#"> </a></li>
+			  	</ul>
+			  </div>
+			 <div class="clearfix"> </div>
+			  <div class="team-btn">
+			  	<a href="#"><span class="user"> </span>Meet The Rest of The Team</a>
+			  </div>
+			   <a class="scroll" href="#mem-mover"> <span class="mover"> </span></a>
+		</div>
+	</div>
+</div> -->
+<!--team end here-->
+<!--services start here-->
+<div class="services" id="services">
+	<div class="container">
+		<div class="sevices-main" id="mem-mover">
+			<div class="ser-top">
+			<h3>Services</h3>
+			<span class="ser-line"> </span>
+			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,similique sunt in culpa qui officia deserunt mollitia</p>
+			</div>
+			<div class="col-md-4 ser-grid">
+				<img src="images/tag1.png" alt="" title="">
+				<h4>Sender</h4>
+				<span class="ser-gridline"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+				<div class="ser-btn">
+					<a href="#">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-4 ser-grid">
+				<img src="images/tag2.png" alt="" title=""style="margin-bottom: 10">
+				<h4>Capture</h4>
+				<span class="ser-gridline"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+				<div class="ser-btn">
+					<a href="#">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-4 ser-grid">
+				<img src="images/tag3.jpg" alt="" title="" height="150" style="margin-bottom: 30">
+				<h4>Receiver</h4>
+				<span class="ser-gridline"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+				<div class="ser-btn">
+					<a href="#">Read More</a>
+				</div>
+			</div>
+			<div class="clearfix"> </div>			
+		</div>
+		<div class="skills">
+			<h3>Our Platforms</h3>
+			<div class="col-md-4 skills-gd">
+				<h4>Web Design</h4>
+				<img src="images/logo1.png" alt="logo1" width="120" height="100">
+				<span class="skill-line"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+			</div>
+			<div class="col-md-4 skills-gd">
+				<h4>Web Design</h4>
+				<img src="images/logo2.png" alt="logo1" width="100" height="100" >
+				<span class="skill-line"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+			</div>
+			<div class="col-md-4 skills-gd" >
+				<h4>Web Design</h4>
+				<img src="images/logo3.jpg" alt="logo1" width="150" height="50" style="margin-top:25px;margin-bottom: 25px;">
+				<span class="skill-line"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+			</div>
+			<div class="col-md-4 skills-gd" style="visibility: hidden;">
+				<h4>Web Design</h4>
+				<span class="skill-line"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+			</div>
+			<!-- <div class="col-md-4 skills-gd">
+				<h4>Web Design</h4>
+				<span class="skill-line"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+			</div> -->
+			<div class="col-md-4 skills-gd" >
+				<h4>Web Design</h4>
+				<img src="images/logo4.png" alt="logo1" width="100" height="100" >
+				<span class="skill-line"> </span>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+			</div>
+		  <div class="clearfix"> </div>
+		  <a class="scroll" href="#ser-mover"> <span class="mover"> </span> </a>
+		</div>
+	</div>
+</div>
+<!--services end here-->
+<!--like you start here-->
+<div class="like">
+	<div class="container">
+		<div class="like-main" id="ser-mover">
+		<h3>Like What You See?</h3>
+		<p>You can contact with us in the following pages!</p>
+		 <div class="like-btn">
+		 	<a href="#"><span class="rupies"> </span>Go TO Project Inquiry</a>
+		 </div>
+		</div>
+	</div>
+</div>
+<!--like you end here-->
+<!--contact start here-->
+<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.182370726!2d-0.10159865000000001!3d51.52864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2sin!4v1431577187804"> </iframe>
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-main">
+			<div class="col-md-4 contact-left">
+				<h3>Address</h3>
+				<h4>4718 Cinnamon</h4>
+				<h4>Lane,San</h4>
+				<h4>Antonio,TX</h4>
+				<p>78212</p>
+				<h3>Contact</h3>
+				<h4>210-884-8310</h4>
+				<h4><a href="mailto:example@mail.com">Contact@incentive.com</a></h4>
+				<ul>
+					<li><a class="con-tw" href="#"> </a></li>
+					<li><a class="con-fa" href="#"> </a></li>
+					<li><a class="con-g" href="#"> </a></li>
+				</ul>
+			</div>
+			<div class="col-md-8 contact-right">
+				<textarea onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Message';}">Your Message</textarea>
+				<input type="text"  value="Your Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Name';}">
+				<input type="text"  class="mail" value="E-Mail Address" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'E-Mail Address';}">
+				<input type="submit" class="share" value="Send Message">
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+ </div>
+</div>
+<!--contact end here-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			<!-- <div class="col-md-6 footer-left">
+				<h3>210-884-8310</h3>
+				<a href="mailto:example@mail.com"><h4>Contact@incentive.com</h4></a>
+				<div class="follow">
+					<h6>Follow us On</h6>
+					<ul>
+						<li><a class="ftr-tw" href="#"> </a></li>
+						<li><a class="ftr-fa" href="#"> </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6 footer-right">
+				<h5>April 25,2015</h5>
+				<h4>At dawn on the 13th the Carnatic<br>entered the port of Yokohama</h4>
+			</div>
+		 <div class="clearfix"> </div> -->
+			<div class="copyright">
+	               <p>Copyright &copy; 2018.All rights reserved.More information <a href="http://www.sjtu.edu.cn/" target="_blank" title="模板之家">SJTU</a> - Report for <a href="http://www.cs.sjtu.edu.cn/~xue-gt/networks2018/cs339.html" title="网页模板" target="_blank">Computer Network</a></p>
+			</div>	
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+			$(document).ready(function() {
+											/*
+											var defaults = {
+									  			containerID: 'toTop', // fading element id
+												containerHoverID: 'toTopHover', // fading element hover id
+												scrollSpeed: 1200,
+												easingType: 'linear' 
+									 		};
+											*/
+											
+											$().UItoTop({ easingType: 'easeOutQuart' });
+											
+										});
+									</script>
+						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>							
+
+</div>
+<!--footer end here-->
+</body>
+</html>
