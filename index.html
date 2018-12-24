@@ -170,6 +170,7 @@
 
 		   	  </p>
 		   	  <div class="clearfix"> </div>
+		   	  <h3 class="sub">Archetecture of ChromaCode</h3>
 		   	  <img src="images/structure.png" alt="2" width="504" height="300" style="margin:0px 0px 15px 20px; float: right;">
 		   	 <br/>
 		   	 <p>The main structure of Chromacode is as follows:
@@ -183,6 +184,8 @@
 		   	 	</ul>
 
 		   	 </p>
+		   	 <div class="clearfix"> </div>
+		   	 <div class="clearfix"> </div>
 
 		   	 
 		   	</div>
@@ -190,54 +193,77 @@
 		  		<div class="clearfix"> </div>
 		</div>
 </div>
-<!--gallery start here-->
-<div class="gallery" id="work">
-	<div class="container">
-		<div class="gallery-main" id="ban-mover">
-			          <h3>Processed Vedio</h3>
-			         <div class="video", style="float: right;">
-			         	<video width="600" height="400" controls>
-					 		<source src="video.mp4" type="video/mp4">   
-						</video>
-			         </div>	
-			         <div> <p><br/> <br/> </p> </div>
-			         <p style="color:#fff;">There are mainly three key goals in hidden screen-camera communication. They are:<br/> </p>
-			         	<ul style="color:#fff;">
-			         	<li>Invisibility: users cannot see the code</li>
-						<li>Reliability: it can tolerate noise</li>
-						<li>Throughput: it can achieve high volume of communications.</li>
-			         	</ul >
 
-						<br/>
-						<p style="color:#fff;">
-						However, these three key goals can be conflicting. <br>
-
-						For example, we can increase lightness adjusting amount to achieve more reliable data transmission, but more flickers may be observed by human eyes. 
-						<br>
-						Previous works usually made a trade-off among them. In our work, ChromaCode aims to achieve all three goals while retaining watching experience to users.
-						<br>
-						Our demo video is shown on the right.
-						</p>			
-						<a class="scroll" href="#gall-mover"> <span class="mover"> </span> </a>
-		  		<div class="clearfix"> </div>
-	</div>
- </div>
-</div>
-<link rel="stylesheet" href="css/swipebox.css">
+<!-- <link rel="stylesheet" href="css/swipebox.css">
 	<script src="js/jquery.swipebox.min.js"> </script> 
 	    <script type="text/javascript">
 			jQuery(function($) {
 				$(".swipebox").swipebox();
 			});
-</script>
+</script> -->
 
+<!-- <div class="gallery" id="work">
+	<div class="container">
+		<div class="gallery-main" id="ban-mover">
+			          <h3>Frame Embaded</h3>
+			         <div class="video1", style="float: right;">
+			         	<h3>Sender_Video</h3>
+			         	<video width="550" height="400" controls>
+					 		<source src="demo.mp4" type="video/mp4">   
+						</video>
+			         </div>	
+			         <div> <p><br/> <br/> </p> </div>
+			          <div class="video1", style="float: left;">
+			          	<h3>Demo</h3>
+			         	<video width="550" height="400" controls>
+					 		<source src="final.mp4" type="video/mp4">   
+						</video>
+			         </div>	
+						<a class="scroll" href="#gall-mover"> <span class="mover"> </span> </a>
+		  		<div class="clearfix"> </div>
+	</div>
+ </div>
+</div> -->
+
+<!--gallery start here-->
 <div class="gallery" id="work">
 	<div class="container">
 		<div class="gallery-main" id="ban-mover">
-			          <h3>Demo Vedio</h3>
-			         <div class="video1", style="float: right;">
+			          <h3>Processed Video</h3>
+			         <div class="video", style="float: left;">
 			         	<video width="600" height="400" controls>
-					 		<source src="video.mp4" type="video/mp4">   
+					 		<source src="final.mp4" type="video/mp4">   
+						</video>
+			         </div>	
+			         <div> <p><br/> <br/> </p> </div>
+			         <p style="color:#fff;">This video on the left is the final processed video with data frame embaded. Some factors of environments may infect the performance of our system. The experimental conditions are very harsh, and the parameter selection is related to:<br/> </p>
+			         <div> <p><br/>  </p> </div>
+			         	<ul style="color:#fff;">
+			         	<li>the lighting environment (external illumination, display brightness)</li>
+			         	<div> <p><br/>  </p> </div>
+						<li>hardware environment (display, camera) at that time</li>
+						<div> <p><br/>  </p> </div>
+						<li>and so on</li>
+			         	</ul >
+
+						<br/>
+						<p style="color:#fff;">
+						And some bad environmental conditions may lead to bad results. But in general case, it works well.
+						</p>			
+						<!-- <a class="scroll" href="#gall-mover"> <span class="mover"> </span> </a> -->
+		  		<div class="clearfix"> </div>
+	</div>
+ </div>
+</div>
+
+<!--gallery start here-->
+<div class="gallery" id="work">
+	<div class="container">
+		<div class="gallery-main" id="ban-mover">
+			          <h3>Demo</h3>
+			         <div class="video", style="float: right;">
+			         	<video width="600" height="400" controls>
+					 		<source src="demo.mp4" type="video/mp4">   
 						</video>
 			         </div>	
 			         <div> <p><br/> <br/> </p> </div>
@@ -258,11 +284,12 @@
 						<br>
 						Our demo video is shown on the right.
 						</p>			
-						<a class="scroll" href="#gall-mover"> <span class="mover"> </span> </a>
+						<!-- <a class="scroll" href="#gall-mover"> <span class="mover"> </span> </a> -->
 		  		<div class="clearfix"> </div>
 	</div>
  </div>
 </div>
+
 <link rel="stylesheet" href="css/swipebox.css">
 	<script src="js/jquery.swipebox.min.js"> </script> 
 	    <script type="text/javascript">
