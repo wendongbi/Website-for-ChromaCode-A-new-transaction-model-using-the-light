@@ -100,6 +100,11 @@ span.menu{
   background: #31313b;
   padding: 0em 0em 1em 0em;
 }
+.code {
+  background: #31313b;
+  padding: 0em 0em 1em 0em;
+  height: 800px
+}
 .intro {
   background: #fc5451;
   padding: 0em 0em 1em 0em;
@@ -107,6 +112,9 @@ span.menu{
 .banner-main {
   padding: 0em 1.5em 0em 1.5em;
   position: relative;
+}
+.banner-main h3{
+  margin: 0em 0em 0.2em 0em;
 }
 .banner-top {
   background: url(../images/background.jpg)no-repeat;
@@ -189,6 +197,36 @@ span.img-text {
   text-align: center;
   margin: 0em 0em 0.8em 0em;
   padding-top: 20px;
+}
+.code-text{
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #fff;
+  width: 1000px;
+  height: 700px;
+  margin: 0em auto;
+  text-align: center;
+  min-height: 1.8em;
+}
+.code{
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #fff;
+  width: 800px;
+  height: 500px;
+  margin: 0em auto;
+  text-align: center;
+  min-height: 1.8em;
+}
+.code-top{
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #fff;
+  width: 800px;
+  height: 300px;
+  margin: 0em auto;
+  text-align: center;
+  min-height: 1.8em;
 }
 
 .bann-btn {
