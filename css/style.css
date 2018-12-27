@@ -218,6 +218,16 @@ span.img-text {
   text-align: center;
   min-height: 1.8em;
 }
+.download {
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #fff;
+  width: 800px;
+  height: 150px;
+  margin: 0em auto;
+  text-align: center;
+  min-height: 1.8em;  
+}
 .code-top{
   font-size: 0.875em;
   font-weight: 400;
